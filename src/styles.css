@@ -1,0 +1,17 @@
+:root{color-scheme:dark;font-family:Inter,system-ui,sans-serif}
+body{margin:0;background:#0a1018;color:#d8e5ff}
+.app{display:grid;grid-template-columns:320px 1fr 320px;gap:12px;padding:12px;height:100vh;box-sizing:border-box}
+.panel,.main-panel{background:#121c2a;border:1px solid #223248;border-radius:12px;padding:10px;overflow:auto}
+.heading-row{display:flex;justify-content:space-between;align-items:center;gap:8px}
+button,input,textarea,select{width:100%;margin:4px 0;background:#0e1521;color:#e3eeff;border:1px solid #2a3f5d;border-radius:8px;padding:8px}
+.active{outline:2px solid #6ad3ff}
+.grid{position:relative;display:grid;grid-template-columns:repeat(14,26px);grid-auto-rows:20px;gap:1px;background:#07101a;padding:10px;border-radius:10px}
+.cell{background:#172332}
+.cell.blocked{background:#29222a}
+.cell.ok{background:#1f7a47}
+.cell.bad{background:#8a2d2d}
+.placement{position:absolute;border:1px solid #fff6;border-radius:6px;font-size:10px;padding:2px;overflow:hidden}
+.card{padding:8px;border-radius:8px;color:#0a0a0a;font-weight:700;cursor:grab}
+.drag{background:#1e90ff;padding:8px 12px;border-radius:8px}
+.unload{margin-top:12px;padding:20px;border:2px dashed #4b617d;border-radius:10px;text-align:center}
+.unload.ok{border-color:#57f599;background:#0f3b29}
